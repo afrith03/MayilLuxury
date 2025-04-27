@@ -3,7 +3,7 @@ import FeatureCard from "./FeatureCard";
 
 const WhyChooseUsSection = () => {
   return (
-    <section id="why-choose" className="py-20 peacock-gradient text-white relative overflow-hidden">
+    <section id="why-choose" className="py-20 mayil-gradient text-white relative overflow-hidden">
       <div className="absolute inset-0 opacity-10 background-pattern"></div>
       
       <div className="container mx-auto px-4 relative z-10">
