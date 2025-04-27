@@ -33,7 +33,6 @@ const Navbar = () => {
       <nav className="container mx-auto px-4 py-3 flex justify-between items-center">
         <div className="flex items-center">
           <div className="mr-3">
-            {/* Peacock logo */}
             <div className="w-10 h-10 bg-peacockBlue rounded-full flex items-center justify-center">
               <i className="fas fa-feather-alt text-royalGold text-xl"></i>
             </div>
