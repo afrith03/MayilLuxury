@@ -1,0 +1,89 @@
+Build a grand, luxurious, Indian-tradition-inspired front-end website for a brand called "Mayil Sambranis" (meaning Peacock Sambranis).
+
+Use: React + TailwindCSS (for styling).
+Theme: Based heavily around Peacock motifs – vibrant blues, greens, gold accents, traditional patterns.
+Site Goals:
+
+Feel very premium, traditional, and spiritual.
+
+Reflect the Indian heritage and cultural connection with Sambranis (Dhoop Cups).
+
+Mobile-friendly (responsive across devices).
+
+No backend/database; static front-end only.
+
+Layout Requirements:
+
+Hero Section:
+
+Big banner with a beautiful background showing a temple, peacock feathers, or traditional Indian art.
+
+"Welcome to Mayil Sambranis" tagline with a mystical, elegant font.
+
+A button like "Explore Our Sambranis" (with a soft hover effect).
+
+About Section:
+
+Talk about the tradition of Sambrani, the purity of Mayil Sambranis.
+
+Maybe a few traditional illustrations or photos (can use placeholders).
+
+Products Section:
+
+Display products in stunning Tailwind Cards.
+
+Cards should be inspired by peacock colors and shapes — use rounded corners, feather-like border accents.
+
+Each card shows:
+
+Product Image
+
+Product Name (e.g., "Traditional Temple Sambrani", "Rose Infused Sambrani")
+
+Short Description
+
+A "Buy Now" button (dummy link).
+
+Why Choose Us Section:
+
+Highlight points like "100% Natural", "Traditionally Made", "Spiritual Purity".
+
+Use beautiful iconography with peacock feather themed bullets or badges.
+
+Testimonials Section:
+
+A carousel or cards showing 2-3 customer feedbacks.
+
+Use soft background colors like light beige with peacock blue accents.
+
+Footer:
+
+Include brand logo (maybe a stylized peacock).
+
+Simple links like "Home", "Products", "About", "Contact".
+
+Social media icons (Instagram, Facebook).
+
+Traditional Indian patterns in the background.
+
+Design Tone: Elegant, Spiritual, Authentic Indian Tradition, Luxurious.
+
+Color Palette Suggestion:
+
+Primary: Peacock Blue (#1A374D), Emerald Green (#3E8E7E), Royal Gold (#FFD700).
+
+Backgrounds: Ivory (#FFF8E1), Light Beige (#F5F5DC).
+
+Typography:
+
+Grand display font for headings (traditional Indian style but readable).
+
+Soft, clean sans-serif for body text.
+
+Animations:
+
+Soft fade-ins when scrolling.
+
+Gentle hover effects on cards and buttons (like a floating effect).
+
+Background patterns moving subtly.
