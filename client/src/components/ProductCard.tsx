@@ -19,7 +19,7 @@ const ProductCard = ({ product, index }: ProductCardProps) => {
         <div className="absolute top-0 right-0 w-24 h-24 opacity-20">
           <img 
             src="https://images.unsplash.com/photo-1584304778249-fe5ca0a0d10d?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80" 
-            alt="Peacock feather background" 
+            alt="Decorative background pattern" 
             className="w-full h-full object-cover"
           />
         </div>
