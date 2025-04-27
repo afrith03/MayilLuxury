@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200" height="40" viewBox="0 0 1200 40" xmlns="http://www.w3.org/2000/svg">
+  <!-- Golden ornate border -->
+  <rect x="0" y="19" width="1200" height="2" fill="#D4AF37"/>
+  <rect x="0" y="15" width="1200" height="1" fill="#D4AF37" opacity="0.5"/>
+  <rect x="0" y="24" width="1200" height="1" fill="#D4AF37" opacity="0.5"/>
+  
+  <!-- Decorative dots -->
+  <g fill="#D4AF37">
+    <circle cx="100" cy="20" r="3"/>
+    <circle cx="200" cy="20" r="3"/>
+    <circle cx="300" cy="20" r="3"/>
+    <circle cx="400" cy="20" r="3"/>
+    <circle cx="500" cy="20" r="3"/>
+    <circle cx="600" cy="20" r="3"/>
+    <circle cx="700" cy="20" r="3"/>
+    <circle cx="800" cy="20" r="3"/>
+    <circle cx="900" cy="20" r="3"/>
+    <circle cx="1000" cy="20" r="3"/>
+    <circle cx="1100" cy="20" r="3"/>
+  </g>
+</svg>
