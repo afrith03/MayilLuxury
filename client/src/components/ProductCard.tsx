@@ -13,7 +13,7 @@ const ProductCard = ({ product, index }: ProductCardProps) => {
   ];
 
   return (
-    <div className="group relative scroll-reveal">
+    <div id="products" className="group relative scroll-reveal">
       <div className={`absolute inset-0 ${bgColors[index % bgColors.length]} rounded-lg transform rotate-2 group-hover:rotate-3 transition-transform duration-300`}></div>
       <div className="relative bg-gradient-to-br from-beige to-ivory rounded-lg overflow-hidden shadow-lg border border-royalGold p-6 transform group-hover:translate-y-[-5px] transition-all duration-300">
         
