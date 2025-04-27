@@ -50,8 +50,11 @@ export default {
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
         // Custom Colors for Mayil Sambranis
-        peacockBlue: "hsl(var(--peacock-blue))",
-        peacockTeal: "hsl(var(--peacock-teal))",
+        mayilBlue: "hsl(var(--mayil-blue))",
+        mayilTeal: "hsl(var(--mayil-teal))",
+        // Legacy names for compatibility
+        peacockBlue: "hsl(var(--mayil-blue))",
+        peacockTeal: "hsl(var(--mayil-teal))",
         emeraldGreen: "hsl(var(--emerald-green))",
         royalGold: "hsl(var(--royal-gold))",
         ivory: "hsl(var(--ivory))",
