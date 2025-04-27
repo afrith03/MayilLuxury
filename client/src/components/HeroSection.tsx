@@ -5,7 +5,7 @@ const HeroSection = () => {
     <section 
       id="home" 
       className="relative min-h-screen flex items-center justify-center bg-cover bg-center"
-      style={{ backgroundImage: "url('https://images.unsplash.com/photo-1592297961260-18bab9c7eba9?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80')" }}
+      style={{ backgroundImage: "url('/assets/WhatsApp Image 2025-04-03 at 10.57.25 PM.jpeg')" }}
     >
       <div className="absolute inset-0 bg-peacockBlue bg-opacity-60"></div>
       <div className="container mx-auto px-4 z-10 text-center">

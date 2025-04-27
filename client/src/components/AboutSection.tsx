@@ -11,8 +11,8 @@ const AboutSection = () => {
           <div className="md:w-1/2 scroll-reveal">
             <div className="relative">
               <img 
-                src="https://images.unsplash.com/photo-1624453248507-702456e9624e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
-                alt="Traditional Sambrani being used in a spiritual setting" 
+                src="/assets/WhatsApp Image 2025-04-03 at 10.55.37 PM.jpeg" 
+                alt="Traditional Sambrani crafted by Mayil Sambranis" 
                 className="rounded-lg shadow-xl w-full h-auto object-cover"
               />
               <div className="absolute -bottom-6 -right-6 w-32 h-32 border-4 border-royalGold rounded-lg z-[-1]"></div>
