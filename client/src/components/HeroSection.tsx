@@ -1,5 +1,3 @@
-import ShapeDivider from "./ui/shape-divider";
-
 const HeroSection = () => {
   return (
     <section 
@@ -10,19 +8,19 @@ const HeroSection = () => {
       {/* Background overlay with pattern */}
       <div className="absolute inset-0 bg-mayilBlue bg-opacity-70"></div>
       <div 
-        className="absolute inset-0 opacity-40"
+        className="absolute inset-0 opacity-30"
         style={{ 
-          backgroundImage: "url('/assets/hero-pattern.svg')",
-          backgroundSize: "200px 200px"
+          backgroundImage: "url('/assets/mehendi-pattern.svg')",
+          backgroundSize: "240px 240px"
         }}
       ></div>
       
       {/* Top and bottom decorative borders */}
       <div className="absolute top-0 left-0 right-0 h-16 overflow-hidden">
-        <img src="/assets/ornate-border.svg" alt="" className="w-full transform rotate-180" />
+        <img src="/assets/traditional-border.svg" alt="" className="w-full transform rotate-180" />
       </div>
       <div className="absolute bottom-0 left-0 right-0 h-16 overflow-hidden">
-        <img src="/assets/ornate-border.svg" alt="" className="w-full" />
+        <img src="/assets/traditional-border.svg" alt="" className="w-full" />
       </div>
       
       {/* Main content */}
@@ -62,8 +60,6 @@ const HeroSection = () => {
           </button>
         </div>
       </div>
-      
-      <ShapeDivider />
     </section>
   );
 };

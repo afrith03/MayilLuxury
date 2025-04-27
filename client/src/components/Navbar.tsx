@@ -34,12 +34,12 @@ const Navbar = () => {
         <div className="flex items-center">
           <div className="mr-3">
             <img 
-              src="/assets/mayil-logo.svg" 
+              src="/assets/mayil-logo-traditional.svg" 
               alt="Mayil Sambranis Logo" 
               className="w-14 h-14 drop-shadow-md"
             />
           </div>
-          <span className="font-rozha text-2xl text-mayilBlue font-bold">
+          <span className="font-cormorant text-2xl text-mayilBlue font-bold tracking-wide">
             <span className="bg-clip-text text-transparent bg-gradient-to-r from-royalGold via-amber-500 to-royalGold">Mayil</span> 
             <span className="text-emeraldGreen">Sambranis</span>
           </span>

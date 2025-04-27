@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Circle with Mehendi-style border -->
+  <circle cx="60" cy="60" r="58" fill="#1A374D" stroke-width="0"/>
+  
+  <!-- Mehendi Border Pattern -->
+  <path d="M60 2
+    C80 2, 100 20, 118 60
+    C100 100, 80 118, 60 118
+    C40 118, 20 100, 2 60
+    C20 20, 40 2, 60 2Z" 
+    fill="none" stroke="#FFD700" stroke-width="2.5"/>
+  
+  <!-- Mehendi Decorations (Swirls and Paisleys) -->
+  <g fill="none" stroke="#FFD700" stroke-width="1.5">
+    <!-- Top Decoration -->
+    <path d="M60 5 C65 10, 70 5, 70 10 S75 15, 70 20 S65 15, 60 15" />
+    <path d="M60 5 C55 10, 50 5, 50 10 S45 15, 50 20 S55 15, 60 15" />
+    
+    <!-- Bottom Decoration -->
+    <path d="M60 115 C65 110, 70 115, 70 110 S75 105, 70 100 S65 105, 60 105" />
+    <path d="M60 115 C55 110, 50 115, 50 110 S45 105, 50 100 S55 105, 60 105" />
+    
+    <!-- Left Decoration -->
+    <path d="M5 60 C10 65, 5 70, 10 70 S15 75, 20 70 S15 65, 15 60" />
+    <path d="M5 60 C10 55, 5 50, 10 50 S15 45, 20 50 S15 55, 15 60" />
+    
+    <!-- Right Decoration -->
+    <path d="M115 60 C110 65, 115 70, 110 70 S105 75, 100 70 S105 65, 105 60" />
+    <path d="M115 60 C110 55, 115 50, 110 50 S105 45, 100 50 S105 55, 105 60" />
+    
+    <!-- Diagonal Decorations -->
+    <path d="M30 30 C35 25, 40 30, 38 35 S40 40, 35 45" />
+    <path d="M90 30 C85 25, 80 30, 82 35 S80 40, 85 45" />
+    <path d="M30 90 C35 95, 40 90, 38 85 S40 80, 35 75" />
+    <path d="M90 90 C85 95, 80 90, 82 85 S80 80, 85 75" />
+  </g>
+  
+  <!-- Peacock -->
+  <g transform="translate(60, 60) scale(0.5) translate(-60, -60)">
+    <!-- Peacock Body -->
+    <path d="M60 85 C65 80, 70 80, 70 75 C70 65, 60 60, 50 65 C45 68, 45 75, 50 80 Z" fill="#3E8E7E" stroke="#FFD700" stroke-width="1"/>
+    
+    <!-- Peacock Head and Neck -->
+    <path d="M50 65 C45 60, 45 50, 50 45 C55 40, 65 45, 60 55" fill="#3E8E7E" stroke="#FFD700" stroke-width="1"/>
+    <circle cx="50" cy="45" r="5" fill="#1A374D" stroke="#FFD700" stroke-width="0.75"/>
+    <circle cx="50" cy="45" r="2" fill="#FFD700"/>
+    
+    <!-- Peacock Feathers -->
+    <g stroke="#FFD700" stroke-width="1" fill="none">
+      <!-- Center Feathers -->
+      <path d="M60 85 C60 70, 60 40, 60 30 C65 25, 70 30, 65 35 C60 40, 60 85, 60 85" />
+      
+      <!-- Right Feathers -->
+      <path d="M60 85 C65 65, 75 45, 80 35 C85 30, 90 35, 85 40 C75 50, 65 75, 60 85" />
+      <path d="M60 85 C70 70, 85 60, 95 55 C100 55, 100 60, 95 62 C85 65, 70 80, 60 85" />
+      
+      <!-- Left Feathers -->
+      <path d="M60 85 C55 65, 45 45, 40 35 C35 30, 30 35, 35 40 C45 50, 55 75, 60 85" />
+      <path d="M60 85 C50 70, 35 60, 25 55 C20 55, 20 60, 25 62 C35 65, 50 80, 60 85" />
+    </g>
+    
+    <!-- Peacock Eye Spots on Feathers -->
+    <g>
+      <circle cx="60" cy="40" r="5" fill="#1A374D" stroke="#FFD700" stroke-width="1"/>
+      <circle cx="60" cy="40" r="3" fill="#3E8E7E" stroke="#FFD700" stroke-width="0.5"/>
+      <circle cx="60" cy="40" r="1" fill="#FFD700"/>
+      
+      <circle cx="75" cy="50" r="4" fill="#1A374D" stroke="#FFD700" stroke-width="1"/>
+      <circle cx="75" cy="50" r="2.5" fill="#3E8E7E" stroke="#FFD700" stroke-width="0.5"/>
+      <circle cx="75" cy="50" r="0.8" fill="#FFD700"/>
+      
+      <circle cx="45" cy="50" r="4" fill="#1A374D" stroke="#FFD700" stroke-width="1"/>
+      <circle cx="45" cy="50" r="2.5" fill="#3E8E7E" stroke="#FFD700" stroke-width="0.5"/>
+      <circle cx="45" cy="50" r="0.8" fill="#FFD700"/>
+    </g>
+  </g>
+  
+  <!-- Brand Name -->
+  <text x="60" y="105" font-family="serif" font-size="11" fill="#FFD700" text-anchor="middle" font-weight="bold">MAYIL SAMBRANIS</text>
+</svg>
