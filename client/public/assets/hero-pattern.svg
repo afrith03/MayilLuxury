@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Peacock Feather Pattern -->
+    <pattern id="peacockPattern" x="0" y="0" width="120" height="120" patternUnits="userSpaceOnUse">
+      <!-- Feather Eye -->
+      <circle cx="60" cy="60" r="15" fill="#FFD700" fill-opacity="0.2"/>
+      <circle cx="60" cy="60" r="10" fill="#FFD700" fill-opacity="0.3"/>
+      <circle cx="60" cy="60" r="5" fill="#FFD700" fill-opacity="0.5"/>
+      
+      <!-- Feather Rays -->
+      <path d="M60 60 L60 0" stroke="#FFD700" stroke-width="1.5" stroke-opacity="0.3"/>
+      <path d="M60 60 L60 120" stroke="#FFD700" stroke-width="1.5" stroke-opacity="0.3"/>
+      <path d="M60 60 L0 60" stroke="#FFD700" stroke-width="1.5" stroke-opacity="0.3"/>
+      <path d="M60 60 L120 60" stroke="#FFD700" stroke-width="1.5" stroke-opacity="0.3"/>
+      
+      <!-- Diagonal Rays -->
+      <path d="M60 60 L120 0" stroke="#FFD700" stroke-width="1.5" stroke-opacity="0.3"/>
+      <path d="M60 60 L0 0" stroke="#FFD700" stroke-width="1.5" stroke-opacity="0.3"/>
+      <path d="M60 60 L120 120" stroke="#FFD700" stroke-width="1.5" stroke-opacity="0.3"/>
+      <path d="M60 60 L0 120" stroke="#FFD700" stroke-width="1.5" stroke-opacity="0.3"/>
+      
+      <!-- Decorative Arcs -->
+      <path d="M60 45 C 70 35, 90 45, 80 60" stroke="#FFD700" stroke-width="1" stroke-opacity="0.4" fill="none"/>
+      <path d="M60 45 C 50 35, 30 45, 40 60" stroke="#FFD700" stroke-width="1" stroke-opacity="0.4" fill="none"/>
+      <path d="M60 75 C 70 85, 90 75, 80 60" stroke="#FFD700" stroke-width="1" stroke-opacity="0.4" fill="none"/>
+      <path d="M60 75 C 50 85, 30 75, 40 60" stroke="#FFD700" stroke-width="1" stroke-opacity="0.4" fill="none"/>
+    </pattern>
+  </defs>
+  
+  <rect x="0" y="0" width="120" height="120" fill="url(#peacockPattern)"/>
+</svg>

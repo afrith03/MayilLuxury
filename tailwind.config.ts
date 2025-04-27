@@ -9,6 +9,7 @@ export default {
         poppins: ["Poppins", "sans-serif"],
         playfair: ["Playfair Display", "serif"],
         rozha: ["Rozha One", "serif"],
+        cormorant: ["Cormorant Garamond", "serif"],
       },
       borderRadius: {
         lg: "var(--radius)",

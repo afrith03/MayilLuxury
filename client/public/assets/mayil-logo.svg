@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Circle -->
+  <circle cx="60" cy="60" r="58" fill="#1A374D" stroke="#FFD700" stroke-width="3"/>
+  
+  <!-- Peacock Feather Design -->
+  <g transform="translate(60, 60) scale(0.85) translate(-60, -60)">
+    <!-- Feather Stem -->
+    <path d="M60 95 L60 30" stroke="#FFD700" stroke-width="2" fill="none"/>
+    
+    <!-- Feather Eye -->
+    <circle cx="60" cy="30" r="15" fill="#3E8E7E" stroke="#FFD700" stroke-width="2"/>
+    <circle cx="60" cy="30" r="10" fill="#1A374D" stroke="#FFD700" stroke-width="1.5"/>
+    <circle cx="60" cy="30" r="5" fill="#FFD700"/>
+    
+    <!-- Feather Plumes Left -->
+    <path d="M60 35 C 45 40, 30 50, 25 70" stroke="#FFD700" stroke-width="1.5" fill="none"/>
+    <path d="M60 40 C 48 45, 35 55, 30 75" stroke="#FFD700" stroke-width="1.5" fill="none"/>
+    <path d="M60 45 C 50 50, 40 60, 35 80" stroke="#FFD700" stroke-width="1.5" fill="none"/>
+    
+    <!-- Feather Plumes Right -->
+    <path d="M60 35 C 75 40, 90 50, 95 70" stroke="#FFD700" stroke-width="1.5" fill="none"/>
+    <path d="M60 40 C 72 45, 85 55, 90 75" stroke="#FFD700" stroke-width="1.5" fill="none"/>
+    <path d="M60 45 C 70 50, 80 60, 85 80" stroke="#FFD700" stroke-width="1.5" fill="none"/>
+  </g>
+  
+  <!-- Brand Name -->
+  <text x="60" y="105" font-family="serif" font-size="12" fill="#FFD700" text-anchor="middle" font-weight="bold">MAYIL SAMBRANIS</text>
+</svg>

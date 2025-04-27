@@ -29,15 +29,20 @@ const Navbar = () => {
   }, []);
 
   return (
-    <header className={`fixed w-full z-50 transition-all duration-300 ${scrolled ? 'bg-ivory bg-opacity-90 backdrop-blur-sm shadow-md' : 'bg-transparent'}`}>
+    <header className={`fixed w-full z-50 transition-all duration-300 ${scrolled || true ? 'bg-ivory bg-opacity-90 backdrop-blur-sm shadow-md border-b-2 border-royalGold' : 'bg-transparent'}`}>
       <nav className="container mx-auto px-4 py-3 flex justify-between items-center">
         <div className="flex items-center">
           <div className="mr-3">
-            <div className="w-10 h-10 bg-peacockBlue rounded-full flex items-center justify-center">
-              <i className="fas fa-feather-alt text-royalGold text-xl"></i>
-            </div>
+            <img 
+              src="/assets/mayil-logo.svg" 
+              alt="Mayil Sambranis Logo" 
+              className="w-14 h-14 drop-shadow-md"
+            />
           </div>
-          <span className="font-rozha text-2xl text-peacockBlue">Mayil <span className="text-emeraldGreen">Sambranis</span></span>
+          <span className="font-rozha text-2xl text-mayilBlue font-bold">
+            <span className="bg-clip-text text-transparent bg-gradient-to-r from-royalGold via-amber-500 to-royalGold">Mayil</span> 
+            <span className="text-emeraldGreen">Sambranis</span>
+          </span>
         </div>
         
         {/* Desktop Navigation */}
